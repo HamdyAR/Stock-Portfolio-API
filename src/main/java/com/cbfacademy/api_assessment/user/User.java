@@ -15,8 +15,8 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
-    private String firstName;
-    private String lastName;
+    private String first_name;
+    private String last_name;
 
 
     public User(){
@@ -25,20 +25,20 @@ public class User {
 
     public User(UUID id, String firstName, String lastName){
         this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
+        this.first_name = firstName;
+        this.last_name = lastName;
     }
     public User(String firstName, String lastName){
-        this.firstName = firstName;
-        this.lastName = lastName;
+        this.first_name = firstName;
+        this.last_name = lastName;
     }
 
     public String getFirstName(){
-        return firstName;   
+        return first_name;   
     }
 
     public String getLastName(){
-        return lastName;   
+        return last_name;   
     }
 
     public UUID getUserId(){
@@ -46,10 +46,10 @@ public class User {
     }
 
     public void setFirstName(String firstName){
-        this.firstName = firstName;
+        this.first_name = firstName;
     }
 
     public void setLastName(String lastName){
-        this.lastName = lastName;
+        this.last_name = lastName;
     }
 }
