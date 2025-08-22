@@ -1,5 +1,10 @@
 package com.cbfacademy.api_assessment.user;
 
-public class UserRepository {
+import java.util.UUID;
+
+import org.springframework.data.repository.ListCrudRepository;
+
+public interface UserRepository extends ListCrudRepository<User, UUID> {
+
     
 }
