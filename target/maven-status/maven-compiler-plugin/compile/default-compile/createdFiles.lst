@@ -1,0 +1,13 @@
+com/cbfacademy/api_assessment/user/UserRepository.class
+com/cbfacademy/api_assessment/stock/StockController.class
+com/cbfacademy/api_assessment/stock/StockRepository.class
+com/cbfacademy/api_assessment/user/UserService.class
+com/cbfacademy/api_assessment/stock/StockService.class
+com/cbfacademy/api_assessment/user/UserController.class
+com/cbfacademy/api_assessment/user/User.class
+com/cbfacademy/api_assessment/ApiAssessmentApplication.class
+com/cbfacademy/api_assessment/order/OrderRepository.class
+com/cbfacademy/api_assessment/order/OrderController.class
+com/cbfacademy/api_assessment/stock/Stock.class
+com/cbfacademy/api_assessment/order/Order.class
+com/cbfacademy/api_assessment/order/OrderService.class
